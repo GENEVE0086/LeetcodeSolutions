@@ -36,6 +36,33 @@ public class ReverseInteger {
   class Solution {
 
     public int reverse(int x) {
+      StringBuffer X = new StringBuffer(String.valueOf(x));
+      char sign = X.charAt(0);
+      StringBuffer resultInString = new StringBuffer();
+      if (sign == '-') {
+        resultInString.append('-');
+        resultInString.append(new StringBuffer(X.substring(1)).reverse());
+      }
+      else
+        resultInString.append(X.reverse());
+      int reslut;
+      String res = resultInString.toString();
+      try {
+        reslut = Integer.parseInt(res);
+      } catch (Exception e){
+        return 0;
+      }
+      return reslut;
+    }
+
+  }
+//leetcode submit region end(Prohibit modification and deletion)
+
+
+//leetcode submit region begin(Prohibit modification and deletion)
+  class Solution1 {
+
+    public int reverse(int x) {
       int result = 0;
       while (x != 0) {
         int tmp = x % 10;
