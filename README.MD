@@ -8,6 +8,7 @@
 * 62 不同路径[代码](https://github.com/GENEVE0086/LeetcodeSolutions/blob/master/src/com/geneve/leetcode/editor/cn/UniquePaths.java)
 * 135 分发糖果[代码](https://github.com/GENEVE0086/LeetcodeSolutions/blob/master/src/com/geneve/leetcode/editor/cn/Candy.java)
 * 6 Z字形变换[代码](https://github.com/GENEVE0086/LeetcodeSolutions/blob/master/src/com/geneve/leetcode/editor/cn/ZigzagConversion.java)
+* 8字符串转换整数 (atoi) [代码](https://github.com/GENEVE0086/LeetcodeSolutions/blob/master/src/com/geneve/leetcode/editor/cn/StringToIntegerAtoi.java)
 
 ## TODO LIST
 * 4-寻找两个正序数组的中位数 补充二分解决方法
