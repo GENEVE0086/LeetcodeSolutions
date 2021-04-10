@@ -36,8 +36,6 @@
 
 package com.geneve.leetcode.editor.cn;
 
-import java.util.Arrays;
-
 public class MergeSortedArray {
 
   public static void main(String[] args) {
